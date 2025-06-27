@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     }
-  }
+  },
+  "include": ["."]
 }
