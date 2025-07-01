@@ -161,7 +161,7 @@ export const serviceData = [
     icon: <Rocket className="w-10 h-10 text-pink-600" />,
     title: 'Product  | SketchitUp Solutions',
     description:
-      'Led & ideated one-stop solution for businesses looking to scale, innovate, and stand out.',
+      'Led & ideated one stop solution for businesses looking to scale, innovate, and stand out.',
     link: '',
   },
   {

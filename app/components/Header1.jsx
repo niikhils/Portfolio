@@ -4,7 +4,7 @@ import React from 'react'
 import { motion } from "motion/react"
 import profile_img1 from '@/assets/nikhil-profile-img-1.jpg';
 
-const Header = () => {
+const Header1 = () => {
     return (
         <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
             <motion.div
@@ -63,4 +63,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header1

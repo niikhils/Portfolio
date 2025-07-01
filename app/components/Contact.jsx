@@ -30,7 +30,7 @@ const Contact = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.7 }}
             className='text-center max-w-2x1 mx-auto mt-5 mb-12 font-Ovo'>
-                I'd love to hear from you! If you have any questions, comments, or feedback, kindly contact.</motion.p>
+                I&apos;d love to hear from you! If you have any questions, comments, or feedback, kindly contact.</motion.p>
 
             {/* <motion.form 
             initial={{ opacity: 0 }}

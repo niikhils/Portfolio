@@ -41,7 +41,7 @@ const About = () => {
                     transition={{ duration: 0.6, delay: 0.8 }}
                     className='flex-1'>
                     <p className='mb-10 max-w-2xl font-Ovo'
-                    >Results-driven keen business professional with 3.5+ years of experience in Product, Business Strategy and Digital transformation in startup environments. Strong business acumen with an MBA from IIM Ahmedabad, carrying first-principles thinking and a zero-to-one approach, Nikhil brings data-driven structured problem-solving with an executional rigor to drive growth.</p>
+                    >Results driven keen business professional with 3.5+ years of experience in Product, Business Strategy and Digital Transformation in startup environments. Strong business acumen with an MBA from IIM Ahmedabad, carrying first-principles thinking and a zero-to-one approach, Nikhil brings data-driven structured problem-solving with an executional rigor to drive growth.</p>
 
                     <motion.ul
                         initial={{ opacity: 0 }}
