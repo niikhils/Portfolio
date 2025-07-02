@@ -13,7 +13,7 @@ const Footer = () => {
 
                 <div className='w-max flex items-center gap-2 mx-auto'>
                     <Image src={assets.mail_icon} alt='' className='w-6' />
-                    a19nikhils@gmail.com
+                    a19nikhils@iima.ac.in
                 </div>
             </div>
 
