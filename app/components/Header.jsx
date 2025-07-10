@@ -4,6 +4,9 @@ import Image from 'next/image';
 import { motion } from "motion/react";
 import profile_img1 from '@/assets/Nikhil-profile-img-1.png';
 import { FaLinkedin } from 'react-icons/fa';
+// import { Linkedin } from 'lucide-react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Header = () => {
   const [showToast, setShowToast] = useState(false);
@@ -50,7 +53,7 @@ const Header = () => {
         MBA from IIM Ahmedabad | Strategy & Growth Professional | CEO's Office | Product Enthusiast
       </motion.p>
 
-      <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
+      {/* <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <motion.a
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -82,9 +85,46 @@ const Header = () => {
           rel="noopener noreferrer"
           className='px-10 py-3 bg-blue-600 text-white rounded-full flex items-center gap-2 hover:border hover:border-blue-600 hover:bg-white hover:text-blue-600 transition'
         >
-          <FaLinkedin size={18} /> LinkedIn
+          <Linkedin size={18} /> LinkedIn
+          <FontAwesomeIcon icon={faLinkedin} size="sm" /> LinkedIn
         </motion.a>
-      </div>
+
+
+      </div> */}
+        {/* <Buttons/> */}
+
+      <motion.div
+        initial={{ y: 30, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 1 }}
+        viewport={{ once: true, amount: 0.8 }}
+        className='flex flex-col sm:flex-row items-center gap-4 mt-4'
+      >
+        <a
+          href="#contact"
+          className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'
+        >
+          Contact Me <Image src={assets.right_arrow_white} alt="" className='w-4' />
+        </a>
+
+        <a
+          href="/Resume_Nikhil_S.pdf"
+          download
+          className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-gray-100 transition'
+        >
+          My Resume <Image src={assets.download_icon} alt="" className='w-4' />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/your-linkedin-username"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='px-10 py-3 bg-blue-600 text-white rounded-full flex items-center gap-2 hover:border hover:border-blue-600 hover:bg-white hover:text-blue-600 transition'
+        >
+          <FaLinkedin size={18} /> LinkedIn
+        </a>
+      </motion.div>
+
 
       {/* Toast Notification */}
       {showToast && (
