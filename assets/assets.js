@@ -135,6 +135,24 @@ export const workData = [
     bgImage: '/work-4.png',
     link: 'https://www.figma.com/proto/9ea1SxVD2LwOYLOaJvABQ0/Amul-Work-Experience?node-id=1-141&t=uOR8rx0YSyrSTKfu-1&scaling=contain&content-scaling=fixed&page-id=0%3A1',
   },
+  {
+    title: 'Mumbai Dabbawalas',
+    description: 'Cloud Kitchen Proposal',
+    bgImage: '/work-10.jpg',
+    link: 'https://www.figma.com/proto/bTkYi6HYOqiBQjWDbQYkwd/PDF-to-Figma--Community-?node-id=2-2&scaling=scale-down&content-scaling=fixed&t=l2tSzDnTdRhuL9RL-1',
+  },
+  {
+    title: 'GuruOm ERP System',
+    description: 'Project Management',
+    bgImage: '/work-6.jpg',
+    link: 'https://www.sketchitup.io/index.php/signin',
+  },
+  {
+    title: 'College Club Activities',
+    description: 'IIM Ahmedabad',
+    bgImage: '/work-7.jpg',
+    link: 'https://www.figma.com/proto/W0tMm5Ur1EwOfCsscHWWS5/Stargazers-Experience?node-id=1-141&p=f&t=N9bLIXVEf6yqHxiD-1&scaling=contain&content-scaling=fixed&page-id=0%3A1',
+  },
 ];
 
 

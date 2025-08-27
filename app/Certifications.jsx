@@ -69,7 +69,7 @@ const Certifications = () => {
             key={index}
             whileHover={{ scale: 1.03, y: -4 }}
             transition={{ duration: 0.3 }}
-            className='relative group p-6 rounded-2xl border border-gray-300 bg-white hover:bg-[var(--color-light-hover)] hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] transition-all duration-300'
+            className='relative group p-6 rounded-2xl border border-gray-300 bg-white hover:bg-[var(--color-light-hover)] hover:-translate-y-1 duration-500 hover:shadow-[var(--shadow-black)] transition-all'
           >
             <div
               className={`absolute -top-4 -left-4 ${item.iconBg} text-white w-9 h-9 flex items-center justify-center rounded-full shadow-md`}

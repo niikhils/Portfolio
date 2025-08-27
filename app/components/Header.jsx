@@ -108,7 +108,7 @@ const Header = () => {
         </a>
 
         <a
-          href="/Resume_Nikhil_S.pdf"
+          href="/Resume_Nikhil_S..pdf"
           download
           className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-gray-100 transition'
         >
